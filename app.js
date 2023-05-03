@@ -1,4 +1,4 @@
-var allImages = [
+let allImages = [
     "image1.jpg",
     "image1.jpg",
     "image2.jpg",
@@ -13,12 +13,12 @@ var allImages = [
     "image6.jpg"
 ];
 
-var numTries = 0;
-var numMatches = 0;
-var firstSelection = null;
-var gameBoard = document.getElementById("game-board");
-var startButton = document.getElementById("start-button");
-var squares = [];
+let numTries = 0;
+let numMatches = 0;
+let firstSelection = null;
+let gameBoard = document.getElementById("game-board");
+let startButton = document.getElementById("start-button");
+let squares = [];
 
 // Function to flip a square
 function flipSquare() {
