@@ -1,0 +1,43 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.container{
+    background-color: lightpink;
+    height: 100vh;
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+}
+
+#game-board {
+
+    display:flex;
+    flex-wrap: wrap; 
+    width: 400px;
+ /* margin: 0 auto; */
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #333;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
